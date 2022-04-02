@@ -1,8 +1,26 @@
-# Getting Started with Create React App
+# Todo react app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+first make sure that you already download node.
+
+for checking node version :
+
+```
+node --version
+```
+
+if you don't have it you can download it from https://nodejs.org/en/download
+
+
+To downlaod libraries files :
+
+### `npm install`
+
+then go to this path to downlaod the libraries we need to handle database connection and configurations:
+
+### `cd prisma`
+### `npm install`
+
 
 In the project directory, you can run:
 
@@ -14,10 +32,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +41,46 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#
+# تطبيق رياكت قائمة المهام
 
-### `npm run eject`
+أولا تأكد من تحميل node على جهاز الشخصي لتشغيل هذا المشروع.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+من اجل التأكد من وجود node على جهازك اكتب الامر التالي في command line : 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+```
+node --version
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+اذا كنت لا تملك node على جهازك يمكنك تحميله بشكل مجاني من الرابط التالي  https://nodejs.org/en/download 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+في مجلد المشروع يمكن تشغيل الأمر التالي لتحميل المكتبات اللازمة لهذا المشروع .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+ثم اذهب للمسار التالي لتحميل المكتبات الخاصة بالمكتبة المسؤلة عن قاعدة البيانات وادخل الامر التالي :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### `cd prisma`
+### `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+لتشغيل الكود ادخل الامر التالي :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### `npm start`
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+سيتم تشغيل الكود على الجهاز الخاص بك ، لتصفح المشروع افتح اي متصفح وادخل العنوان [http://localhost:3000](http://localhost:3000) .
+
+
+
+الصفحة ستقوم تلقائيا باعادة التحميل في حال قمت باجراء أي تعديل ، أيضا يمكنك رؤية أي خطأ في وحدة التحكم 
+
+
+
